@@ -1,0 +1,150 @@
+# 無調整
+MultinomialNB 3.50595926596
+LogisticRegression 0.672293318075
+RandomForestClassifier 1.57081557312
+SGDClassifier 2.63298791773
+ExtraTreesClassifier 1.48738733274
+AdaBoostClassifier 2.04841196312
+DecisionTreeClassifier 10.0049703762
+KNeighborsClassifier 2.42244349291
+XGBClassifier 0.652932786896
+
+(49502, 81) (12376, 81)
+MultinomialNB 0.871472147676
+LogisticRegression 0.489749976486
+RandomForestClassifier 1.57502762982
+SGDClassifier 0.502930940768
+ExtraTreesClassifier 1.56219854378
+AdaBoostClassifier 2.01273979134
+DecisionTreeClassifier 8.91377277031
+KNeighborsClassifier 2.75428342385
+XGBClassifier 0.472350537098
+(49502, 174) (12376, 174)
+MultinomialNB 3.42382218907
+LogisticRegression 0.479260362276
+RandomForestClassifier 1.49976979579
+SGDClassifier 1.89760404856
+ExtraTreesClassifier 1.49726579524
+AdaBoostClassifier 2.0112638693
+DecisionTreeClassifier 8.86912018286
+KNeighborsClassifier 2.37484441091
+XGBClassifier 0.470462707782
+
+# 若干の調整
+MultinomialNB 3.50595926596
+LogisticRegression 0.672293318075
+RandomForestClassifier 0.590235560466
+SGDClassifier 2.33982907015
+ExtraTreesClassifier 0.609126480305
+AdaBoostClassifier 2.08368809741
+DecisionTreeClassifier 9.9352007083
+KNeighborsClassifier 1.4237631219
+XGBClassifier 0.492884791112
+
+(49502, 81) (12376, 81)
+MultinomialNB 0.903391930741
+LogisticRegression 0.468982081345
+RandomForestClassifier 0.52740615075
+SGDClassifier 0.484277988366
+ExtraTreesClassifier 0.536200525146
+AdaBoostClassifier 2.07348566615
+DecisionTreeClassifier 8.1881682242
+KNeighborsClassifier 1.71764964426
+XGBClassifier 0.462199224948
+(49502, 174) (12376, 174)
+MultinomialNB 3.40268289346
+LogisticRegression 0.457230631609
+RandomForestClassifier 0.516607522312
+SGDClassifier 1.77171527994
+ExtraTreesClassifier 0.530259060009
+AdaBoostClassifier 2.07270824879
+DecisionTreeClassifier 8.16584193047
+KNeighborsClassifier 1.41094907502
+XGBClassifier 0.457470918864
+
+# 2層目だけキャリブレーション
+MultinomialNB 0.698384188638
+LogisticRegression 0.456687270519
+RandomForestClassifier 0.451266143038
+SGDClassifier 0.583571526139
+ExtraTreesClassifier 0.448027848355
+AdaBoostClassifier 0.708373742063
+DecisionTreeClassifier 0.751195615514
+KNeighborsClassifier 0.566937085798
+XGBClassifier 0.434580000569
+(49502, 267) (12376, 267)
+MultinomialNB 0.795138966064
+LogisticRegression 0.456848694315
+RandomForestClassifier 0.450123807207
+SGDClassifier 0.602414961765
+ExtraTreesClassifier 0.448285761416
+AdaBoostClassifier 0.708373742063
+DecisionTreeClassifier 0.750487242823
+KNeighborsClassifier 0.577084853951
+XGBClassifier 0.434580000569
+
+#　キャリブレーションベース
+MultinomialNB 0.823709646268
+LogisticRegression 0.663001212553
+RandomForestClassifier 0.494389456313
+SGDClassifier 0.815605836379
+ExtraTreesClassifier 0.482217188342
+AdaBoostClassifier 0.941898886365
+DecisionTreeClassifier 0.915161679166
+KNeighborsClassifier 0.589688067733
+XGBClassifier 0.487883428814
+
+# キャリブレーションオール2層
+(49502, 81) (12376, 81)
+MultinomialNB 0.512366151892
+LogisticRegression 0.475277266554
+RandomForestClassifier 0.455557942957
+SGDClassifier 0.471688910355
+ExtraTreesClassifier 0.451541213916
+AdaBoostClassifier 0.685990084033
+DecisionTreeClassifier 0.755974679927
+KNeighborsClassifier 0.515131000536
+XGBClassifier 0.440315071236
+(49502, 174) (12376, 174)
+MultinomialNB 0.698997767188
+LogisticRegression 0.45956623514
+RandomForestClassifier 0.454511897863
+SGDClassifier 0.590033577062
+ExtraTreesClassifier 0.449430802569
+AdaBoostClassifier 0.713060750112
+DecisionTreeClassifier 0.748546322791
+KNeighborsClassifier 0.569493954968
+XGBClassifier 0.43595821682
+
+# 3層予測値のみキャリブレーションALL
+
+(49502, 81) (12376, 81)
+MultinomialNB 0.490667090281
+LogisticRegression 0.462743759159
+RandomForestClassifier 0.456426442018
+SGDClassifier 0.461171740228
+ExtraTreesClassifier 0.453490227638
+AdaBoostClassifier 0.703748569442
+DecisionTreeClassifier 0.756667451915
+KNeighborsClassifier 0.516113339686
+XGBClassifier 0.449899178631
+(49502, 162) (12376, 162)
+MultinomialNB 0.495636329459
+LogisticRegression 0.456991331256
+RandomForestClassifier 0.451511603102
+SGDClassifier 0.460819800415
+ExtraTreesClassifier 0.4510047186
+AdaBoostClassifier 0.716738116035
+DecisionTreeClassifier 0.754845741707
+KNeighborsClassifier 0.516990379777
+XGBClassifier 0.437614204926
+(49502, 255) (12376, 255)
+MultinomialNB 0.597690404121
+LogisticRegression 0.445901663201
+RandomForestClassifier 0.45160919097
+SGDClassifier 0.573506832332
+ExtraTreesClassifier 0.447408433172
+AdaBoostClassifier 0.697214900298
+DecisionTreeClassifier 0.743514885482
+KNeighborsClassifier 0.544067107447
+XGBClassifier 0.435754353914
